@@ -45,8 +45,23 @@ public class signUp {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	
+		
 	}
+
+	public void trigerSignUp() {
+		signUpTrigger.click();
+	}
+	public void enterData(String name, String lname, String ucomp, String uemail, String upass, String ucpass)  {
+		firstName.sendKeys(name);
+		lastName.sendKeys(lname);
+		companyName.sendKeys(ucomp);
+		email.sendKeys(uemail);
+		pass.sendKeys(upass);
+		cpass.sendKeys(ucpass);
+	}	
 	
-	
+	public void submit() {
+		signUpButton.click();
+	}
 	
 }
