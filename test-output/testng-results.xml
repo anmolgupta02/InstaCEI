@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31116" started-at="2019-06-22T18:43:59Z" finished-at="2019-06-22T18:44:30Z">
+  <suite name="Default suite" duration-ms="27679" started-at="2019-06-22T20:11:59Z" finished-at="2019-06-22T20:12:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31116" started-at="2019-06-22T18:43:59Z" finished-at="2019-06-22T18:44:30Z">
-      <class name="randomHandling.CaptchaHandling">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:randomHandling.CaptchaHandling@29138d3a]" name="setUp" is-config="true" duration-ms="6632" started-at="2019-06-22T18:43:59Z" finished-at="2019-06-22T18:44:06Z">
+    <test name="Default test" duration-ms="27679" started-at="2019-06-22T20:11:59Z" finished-at="2019-06-22T20:12:26Z">
+      <class name="testCases.InstaSignUp">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.InstaSignUp@5ba26eb0]" name="setup" is-config="true" duration-ms="15911" started-at="2019-06-22T20:11:59Z" finished-at="2019-06-22T20:12:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="captchaTest()[pri:0, instance:randomHandling.CaptchaHandling@29138d3a]" name="captchaTest" duration-ms="24317" started-at="2019-06-22T18:44:06Z" finished-at="2019-06-22T18:44:30Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:testCases.InstaSignUp@5ba26eb0]" name="test" duration-ms="11403" started-at="2019-06-22T20:12:15Z" finished-at="2019-06-22T20:12:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- captchaTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:randomHandling.CaptchaHandling@29138d3a]" name="tearDown" is-config="true" duration-ms="95" started-at="2019-06-22T18:44:30Z" finished-at="2019-06-22T18:44:30Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:testCases.InstaSignUp@5ba26eb0]" name="shutdown" is-config="true" duration-ms="304" started-at="2019-06-22T20:12:26Z" finished-at="2019-06-22T20:12:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- randomHandling.CaptchaHandling -->
+        </test-method> <!-- shutdown -->
+      </class> <!-- testCases.InstaSignUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

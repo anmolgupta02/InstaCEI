@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="randomHandling.CaptchaHandling">
+      <class name="testCases.InstaSignUp">
         <methods>
-          <include name="captchaTest"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="test"/>
+          <include name="setup"/>
+          <include name="shutdown"/>
         </methods>
-      </class> <!-- randomHandling.CaptchaHandling -->
+      </class> <!-- testCases.InstaSignUp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -14,7 +14,6 @@ public class signUp {
 	@CacheLookup
 	WebElement signUpTrigger;
 	
-	
 	//Method2
 	@FindBy(xpath="/html/body/ngb-modal-window/div/div/div[2]/div/form/div/div/div[2]/input")
 	WebElement firstName;
